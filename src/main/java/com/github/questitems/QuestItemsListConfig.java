@@ -1,4 +1,4 @@
-package com.github.quest-items;
+package com.github.questitems;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
@@ -8,12 +8,12 @@ import net.runelite.client.config.ConfigItem;
 public interface QuestItemsListConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "my string",
+		name = "Some string config",
+		description = "A config that has a string"
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "Default value";
 	}
 }

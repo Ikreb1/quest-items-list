@@ -1,4 +1,4 @@
-package com.github.quest-items;
+package com.github.questitems;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
