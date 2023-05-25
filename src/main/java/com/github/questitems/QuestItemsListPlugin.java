@@ -51,7 +51,7 @@ public class QuestItemsListPlugin extends Plugin
 		element = new MyElement("Hello lads");
 		panel = new MyPanel(element);
 		icon = new BufferedImage(48, 48, BufferedImage.TYPE_INT_ARGB);
-		// icon = ImageUtil.loadImageResource(getClass(), "panel_icon.png");
+		// icon = ImageUtil.loadImageResource(QuestItemsListPlugin.class, "/panel_icon.png");
 
 		navButton = NavigationButton.builder()
 				.tooltip("Quest items list")
